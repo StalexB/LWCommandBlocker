@@ -1,0 +1,13 @@
+# Do you want to block all commands that contain a ':'? Set this to true
+block_colon_commands: true
+
+block_message: '&c&l(!) &cYou are not permitted to use this command.'
+
+# Players with this permission will not be blocked.
+block_bypass_permission: 'commandblocker.bypass'
+
+blocked_commands:
+  - 'pl'
+  - 'plugins'
+  - 'about'
+  - 'version'
